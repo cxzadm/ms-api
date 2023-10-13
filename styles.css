@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#characterList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.characterCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.characterCard h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.characterCard p {
+    font-size: 14px;
+    margin: 5px 0;
+}
