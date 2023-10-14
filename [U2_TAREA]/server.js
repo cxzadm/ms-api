@@ -14,4 +14,4 @@ app.use( body_parser.urlencoded({extended: false}) )
 routes( app )
 
 app.listen( config.PORT )
-console.log(`La aplicacion se encuentra arriba en http://localhost:${config.PORT}/`)
+console.log(`ve la app en http://localhost:${config.PORT}/`)
